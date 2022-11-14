@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,600;1,200&display=swap');
+
+#logo{
+  width: 268px; 
+  height: 33px;
+  margin-top: 10px;
+}
+li{
+  list-style: none;
+}
+.submenu{
+  display: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+ font-weight: 400;
+ line-height: 18px;
+ color: rgb(171, 171, 171);
+ width: 220px;
+ height: 250x;
+ background-color: azure;
+ padding: 5px;
+ position: absolute;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.mienMune{
+  display: flex;
+  justify-content: space-around;
+   font-family: Roboto, Arial, sans-serif;
+  font-size: 15px;
+ font-weight: 400;
+ line-height: 30px;
+ color: rgb(171, 171, 171);
+  
+}
+.mienmuneIcon{
+  margin-left: 30px;
+}
+#logo1{
+  font-family: Roboto, Arial, sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.8px;
+color: rgb(116, 116, 116);
+}
+.mienmuneIcon:hover ,.subMenuItem:hover{
+  cursor: pointer;
+ color: rgb(0, 179, 155);
+
+}
+.mienmuneIcon:hover .submenu{
+  display: block;
+}
+.subMenuItem{
+ /*height:  42px;
+  width: 220px;*/
+padding: 12px 16px 12px 16px;
+
+
+}
+.titel h1{
+  font-family:  "Work Sans", Arial, sans-serif;
+  font-size: 34px ;
+  font-weight: 300;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+}
+.subMenuItem:hover{
+  background-color: dimgrey;
+}
+
+
+.col-3-patient{
+  box-sizing: border-box;
+  
+  height: 345px;
+  width: 311px;
+  padding: 32px 32px 0px 32px;
+  background-color: #00ccb1;
+}
+
+#for-p{
+  font-family: "Work Sans", Arial, sans-serif;
+font-size: 26px;
+ width: 400;
+height: 33.8px;
+ color: rgb(255, 255, 255)
+}
+#find{
+  font-family:  "Work Sans", Arial, sans-serif;
+  font-size: 24px ;
+  font-weight: 300;
+  line-height: 44.2px;
+ color: rgb(255, 255, 255)
+}
+.style-select1{
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  width: 172px;
+  font-family: Roboto, Arial, sans-serif;
+Font-size: 19.2px;
+background-color: #00ccb1;
+}
+
+.col-3-doctor{
+  box-sizing: border-box;
+  height: 345px;
+  width: 311px;
+  padding: 32px 32px 0px 32px;
+  background-color: #3600cc;
+  padding-left: 100px;
+}
+#for-d{
+  font-family: "Work Sans", Arial, sans-serif;
+font-size: 26px;
+ width: 400;
+height: 33.8px;
+ color: rgb(255, 255, 255)
+}
+#save{
+  font-family:  "Work Sans", Arial, sans-serif;
+  font-size: 24px ;
+  font-weight: 300;
+  line-height: 44.2px;
+ color: rgb(255, 255, 255)
+}
+.style-select2{
+  cursor: pointer;
+  display: inline-block;
+  background-color: #3600cc;
+  font-family: Roboto, Arial, sans-serif;
+Font-size: 19.2px;
+
+
+}
+
+.services__item{
+ 
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
+  height: auto;
+  width: 100%;
+ 
+  background-color: white;
+}
+.col-3-cliniq{
+  box-sizing: border-box;
+  height: 345px;
+  width: 311px;
+  padding: 32px 32px 0px 32px;
+  background-color: #41cc00;
+
+}
+#for-c{
+  font-family: "Work Sans", Arial, sans-serif;
+font-size: 26px;
+ width: 400;
+height: 33.8px;
+ color: rgb(255, 255, 255)
+}
+#deliver{
+  font-family:  "Work Sans", Arial, sans-serif;
+  font-size: 24px ;
+  font-weight: 300;
+  line-height: 44.2px;
+ color: rgb(255, 255, 255)
+}
+.style-select3{
+  cursor: pointer;
+  display: inline-block;
+  background-color: #41cc00;
+ 
+  font-family: Roboto, Arial, sans-serif;
+Font-size: 19.2px;
+}
+.titel2{
+  font-family:  "Work Sans", Arial, sans-serif;
+  font-size: 34px ;
+  font-weight: 300;
+  line-height: 44.2px;
+  color: rgb(0, 179, 155);
+ margin-left: 200px;
+  height: 100px;
+  width: 250px;
+  margin-top: 50px;
+}
+
+  .brands {
+    justify-content: space-between;
+    margin: 0 235px 50px 233.3px;
+    padding: 0 10px 0 10px;
+    display: flex;
+  }
+  
+  .brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    padding: 0 0 10px 0;
+    margin: 10px 0;
+  }
+  
+  .brands h1 {
+    float: left;
+    width: 33%;
+    font-size: 26px;
+    color: #00b39b;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: -.3px;
+    margin: 4px 0 0 0;
+  }
+  
+  .brands__logos a path {
+    fill: hsla(0, 0%, 67%, .7)
+  }
+  
+  .brands__logos .clinicloud img,
+  .brands__logos .gipo img,
+  .brands__logos .jameda img,
+  .brands__logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55
+  }
+  
+  .brands__logos .clinicloud:hover img,
+  .brands__logos .gipo:hover img,
+  .brands__logos .jameda:hover img,
+  .brands__logos .tuotempo:hover img {
+    filter: none;
+    opacity: 1
+  }
+  
+  .brands__logos a:hover path {
+    fill: #00bfa5
+  }
+  
+  .brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  
+  .brands__logos li {
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: auto;
+  }
+  
+  .statistics {
+    padding: 0 0 10px 0;
+    height: 600px;
+    margin: 110px 0 88px 0;
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg, rgba(0, 204, 177, .01) 5%, rgba(61, 199, 223, .1));
+    background-image: url(logo.png);
+    background-position: 114px 292px;
+    background-repeat: no-repeat;
+  }
+  
+  .cols {
+    width: 990px;
+    height: 590px;
+    display: flex;
+    margin: 0 235px 0 233.3px;
+    padding: 0 20px;
+  }
+  
+  .col-1 {
+    width: 50%;
+    margin-top: 2em;
+    min-height: 1px;
+  }
+  
+  .col-1 h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    padding-top: 20px;
+  }
+  
+  .col-1 p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    width: 415px;
+  }
+  
+  .col-2 .col-3 {
+    width: 248.75px;
+    margin-top: 2em;
+    min-height: 1px;
+    padding: 10px;
+    display: block;
+  }
+  
+  .col-2-2-1,
+  .col-2-2-2,
+  .col-2-1-1,
+  .col-2-1-2 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: .8125em;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    background-color: white;
+    height: 220px;
+    width: 198.750px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  }
+  
+  .col-2-2-1,
+  .col-2-2-2,
+  .col-2-1-1,
+  .col-2-1-2 p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+  }
+  
+  .col-2-2-1,
+  .col-2-2-2,
+  .col-2-1-1,
+  .col-2-1-2 p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+  }
+  
+  h3 {
+  
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 31px;
+    color: #00b39b;
+    letter-spacing: -.3px;
+    font-size: 24px;
+    margin: 0.5em 0;
+  }
+  
+  .offices {
+    position: relative;
+    justify-content: center;
+    margin: 33px 220px 60px 242px;
+    width: 1015px;
+    height: 1342.36px;
+    max-width: 1015px;
+  }
+  
+  .offices-head {
+    width: 460px;
+    text-align: center;
+    margin: 0 auto 4.1875rem;
+    height: 172.4px;
+  }
+  
+  .offices-head h1 {
+    text-align: center;
+    margin: 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 39px;
+    color: #00b39b;
+    letter-spacing: -.3px;
+    height: 78px;
+  }
+  
+  .offices-head p {
+    font-family: Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 0;
+    color: #747474;
+    width: 460px;
+    height: 72px;
+    margin: 1.6em 0;
+  }
+  .offices-list{
+    display: table;
+    margin: 0 10px;
+  }
+  .offices-list office:nth-of-type(3n+1) {
+    clear: left;
+  }
+  .office{
+    width: 33.33%;
+    float: left;
+    padding: 10px 0 ;
+  position: relative;
+  }
+  .office a{
+    box-shadow: 0 5px 10px 0 transparent;
+    background: #fff;
+      border: 1px solid rgba(0,0,0,.03);
+      border-radius: 6px;
+      max-width: 311px;
+      z-index: 2;
+      
+      display: block;
+      color: #747474;
+      text-decoration: none;
+    outline: 0;
+  }
+  .office__desc {
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+  }
+  .office .btn {
+    float: right;
+      vertical-align: middle;
+      outline: 0;
+      border: 0;
+      border-radius: 4px;
+      padding: 1.1666666667em 1.5em;
+      background: #3d83df;
+      font-family: Roboto,Arial,sans-serif;
+      line-height: 1em;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: .75rem;
+      text-align: center;
+      text-decoration: none!important;
+      text-transform: uppercase;
+  }
+  figure{
+    margin: 0;
+  }
+  .join-us{
+    position: relative;
+    margin: 80px 233.3px 80px 233.3px;
+    width: 1015px;
+    height: 97.7px;
+    text-align: center;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  .join-us h1{
+    text-align: center;
+    /* width: 520px; */
+    height: 35.2px;
+    margin: 0 0 23px 0;
+    font-family: "Work Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: normal;
+    color: #333333;
+    letter-spacing: -.3px;
+    word-spacing: 0;
+  }
+  .join-us .btn{
+    display: inline-block;
+      vertical-align: middle;
+      position: relative;
+      outline: 0;
+      border: 0;
+      border-radius: 4px;
+      padding: 1.1666666667em 1.5em;
+      background: #3d83df;
+      font-family: Roboto,Arial,sans-serif;
+      line-height: 1em;
+      color: #fff;
+      font-weight: 700;
+      letter-spacing: .04em;
+      font-size: .75rem;
+      text-align: center;
+      text-decoration: none!important;
+      text-transform: uppercase;
+      transition: all .2s ease 0s;
+  }
+  select{
+    color: white;
+  }
+  option{
+    color: black;
+    border: none;
+  
+  }
+  .nejah{
+    border: none;
+  
+  }
+  footer {
+    display: block;
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    padding: 16px 0;
+    max-width: 1015px;
+    margin: 0 auto;
+    position: relative;
+  }
+  footer p{
+    font-size: 12px;
+      color: #ababab;
+      margin-bottom: .4em;
+  }
